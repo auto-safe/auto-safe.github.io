@@ -145,9 +145,9 @@
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
             <div class="publication-video">
-              <img src="static/images/overall1.png" style="width:90%; height:auto" alt="MY ALT TEXT"/>
+              <img src="static/images/overall3.png" style="width:90%; height:auto" alt="MY ALT TEXT"/>
               <h2 class="subtitle has-text-centered">
-                Overview of AutoSafe, which consists of the following steps: 1) Generate risk scenario dataset <i>D<sub>r</sub></i> based on predefined available tools <i>F</i> and risk outcomes <i>O</i> (including: user instructions <i>u</i> and historical interaction trajectories &tau) 2) Sample safe actions <i>a<sup>s</sup><sub>t</sub></i> from the environment based on a self-reflection mechanism and construct a dataset <i>D<sub>safe</sub></i>. 3) Fine-tune the LLM using this dataset.
+                Overview of SafeAgent, which consists of the following steps: 1) Generate risk scenario dataset <i>D<sub>r</sub></i> based on predefined available tools <i>F</i> and risk outcomes <i>O</i> (including: user instructions <i>u</i> and historical interaction trajectories &tau) 2) Sample safe actions <i>a<sup>s</sup><sub>t</sub></i> from the environment based on a self-reflection mechanism and construct a dataset <i>D<sub>safe</sub></i>. 3) Fine-tune the LLM using this dataset.
               </h2>
             </div>
           </div>
@@ -165,7 +165,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Large Language Model (LLM)-based agents are increasingly deployed in real-world applications such as "digital assistants, autonomous customer service, and decision-support systems", where their ability to "interact in multi-turn, tool-augmented environments" makes them indispensable.  However, ensuring the safety of these agents remains a significant challenge due to the diverse and complex risks arising from dynamic user interactions, external tool usage, and the potential for unintended harmful behaviors. To address this critical issue, we propose AutoSafe, the first framework that systematically enhances agent safety through fully automated synthetic data generation. Concretely, 1) we introduce an open and extensible threat model, OTS, which formalizes how unsafe behaviors emerge from the interplay of user instructions, interaction contexts, and agent actions.  This enables precise modeling of safety risks across diverse scenarios. 2) we develop a fully automated data generation pipeline that simulates unsafe user behaviors, applies self-reflective reasoning to generate safe responses, and constructs a large-scale, diverse, and high-quality safety training dataset—eliminating the need for hazardous real-world data collection. To evaluate the effectiveness of our framework, we design comprehensive experiments on both synthetic and real-world safety benchmarks.  Results demonstrate that AutoSafe boosts safety scores by 45% on average and achieves a 28.91% improvement on real-world tasks, validating the generalization ability of our learned safety strategies. These results highlight the practical advancement and scalability of AutoSafe in building safer LLM-based agents for real-world deployment.
+            Large Language Model (LLM)-based agents are increasingly deployed in real-world applications such as "digital assistants, autonomous customer service, and decision-support systems", where their ability to "interact in multi-turn, tool-augmented environments" makes them indispensable.  However, ensuring the safety of these agents remains a significant challenge due to the diverse and complex risks arising from dynamic user interactions, external tool usage, and the potential for unintended harmful behaviors. To address this critical issue, we propose SafeAgent, the first framework that systematically enhances agent safety through fully automated synthetic data generation. Concretely, 1) we introduce an open and extensible threat model, OTS, which formalizes how unsafe behaviors emerge from the interplay of user instructions, interaction contexts, and agent actions.  This enables precise modeling of safety risks across diverse scenarios. 2) we develop a fully automated data generation pipeline that simulates unsafe user behaviors, applies self-reflective reasoning to generate safe responses, and constructs a large-scale, diverse, and high-quality safety training dataset—eliminating the need for hazardous real-world data collection. To evaluate the effectiveness of our framework, we design comprehensive experiments on both synthetic and real-world safety benchmarks.  Results demonstrate that SafeAgent boosts safety scores by 45% on average and achieves a 28.91% improvement on real-world tasks, validating the generalization ability of our learned safety strategies. These results highlight the practical advancement and scalability of SafeAgent in building safer LLM-based agents for real-world deployment.
           </p>
         </div>
       </div>
@@ -233,7 +233,7 @@
     <div class="container">
       <h2 class="title">Poster</h2>
 
-      <iframe  src="static/pdfs/autosafe.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/SafeAgent.pdf" width="100%" height="550">
           </iframe>
         
       </div>
